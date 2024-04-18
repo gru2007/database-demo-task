@@ -57,7 +57,7 @@ class Database implements DatabaseInterface
                     $placeholder_type = 'f';
                 } else if (is_bool($value)) {
                     $is_undefined = true;
-                    $placeholder_type = 's';
+                    $placeholder_type = 'd';
                 } else if (is_null($value)) {
                     $is_undefined = true;
                     $placeholder_type = 'n';
